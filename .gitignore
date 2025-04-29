@@ -1,0 +1,24 @@
+# Python virtual environment
+venv/
+.venv/
+
+# Environment variables - CRITICAL
+.env
+
+# Streamlit secrets (if you ever created it for local testing)
+.streamlit/secrets.toml
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Local data/index directories (adjust names if different)
+uploaded_docs_local_mm/
+faiss_index_local_mm/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# NOTE: Ensure 'models/' is NOT listed here if you bundled the embedding model!
